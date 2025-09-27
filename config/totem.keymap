@@ -35,13 +35,13 @@
             bindings = <&kp TAB>;
         };
 
-        /* SPACE + ENTER -> momentary ADJ (check positions 35 and 17 are correct for your shield!) */
+        /* SPACE + ENTER -> momentary ADJ while both are held */
         combo_space_enter_adjust {
-            timeout-ms = <50>;
-            key-positions = <35 17>;
+            timeout-ms = <120>;
+            slow-release;
+            key-positions = <34 35>;
             bindings = <&mo ADJ>;
         };
-    };
 
     macros {
         gif: gif {
