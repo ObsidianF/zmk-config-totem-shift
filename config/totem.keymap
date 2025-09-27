@@ -42,6 +42,7 @@
             key-positions = <34 35>;
             bindings = <&mo ADJ>;
         };
+    };
 
     macros {
         gif: gif {
