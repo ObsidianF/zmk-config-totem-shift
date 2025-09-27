@@ -53,7 +53,7 @@
 
         combo_space_enter_adjust {
             timeout-ms = <50>;
-            key-positions = <ENTER_KEY_POS SPACE_KEY_POS>;
+            key-positions = <35 17>;
             bindings = <&mo ADJ>; // Momentarily activate ADJ layer
         };
     };
